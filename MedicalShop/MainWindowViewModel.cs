@@ -66,7 +66,7 @@ namespace MedicalShop
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Error: " + ex.Message);
             }
             finally
             {
